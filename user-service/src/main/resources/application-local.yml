@@ -1,0 +1,15 @@
+server:
+  address: 127.0.0.1
+  servlet:
+    session:
+      cookie:
+        secure: false
+spring:
+  thymeleaf:
+    cache: false
+  security:
+    user:
+      name: ${LOCAL_USERNAME:developer}
+      password: ${LOCAL_PASSWORD:local-developer-only}
+core:
+  base-url: ${CORE_BASE_URL:http://localhost:8081}

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: batch-service
+  main:
+    web-application-type: none
+core:
+  base-url: ${CORE_BASE_URL}

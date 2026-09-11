@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: database-migration
+  main:
+    web-application-type: none
+  datasource:
+    url: ${DB_URL}
+    username: ${MIGRATION_DB_USERNAME}
+    password: ${MIGRATION_DB_PASSWORD}
+  flyway:
+    enabled: true
+    clean-disabled: true

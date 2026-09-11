@@ -1,0 +1,2 @@
+rootProject.name = 'project'
+include 'user-service', 'core-service', 'batch-service', 'database-migration'
