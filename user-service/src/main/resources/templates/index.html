@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="ko" xmlns:th="http://www.thymeleaf.org">
-<head><meta charset="UTF-8"><title>로컬 개발 환경</title><link rel="stylesheet" href="/css/app.css"></head>
-<body><main><h1>프로젝트 로컬 개발 환경</h1><p>Thymeleaf → Core REST API → MySQL 연결 확인</p>
-<pre th:text="${coreStatus}"></pre>
-<form th:action="@{/logout}" method="post"><button>로그아웃</button></form>
-</main></body></html>
+<head><meta charset="UTF-8"><title>Hello</title></head>
+<body>
+<main>
+  <h1>Hello World</h1>
+  <p th:text="${coreStatus}"></p>
+</main>
+</body>
+</html>
